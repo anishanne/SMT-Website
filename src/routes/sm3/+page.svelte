@@ -188,13 +188,12 @@
         We are currently in a
         <b>closed registration</b> phase. Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
         from areas that are <b>low income </b>or <b>historically underrepresented in mathematics</b>. If you believe your school should register in this 
-        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>
-
+        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>.
       </p>
       <h4>Open Registration</h4>
       <p>
         If there are available spots after closed registration concludes, we will begin open registration on 
-        <b>Thursday, September 25th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
+        <b>Monday, September 29th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
         It will be first-come, first-serve. There will also be a waitlist.  
       </p>
       <p>
@@ -205,7 +204,7 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 8/1/2025</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 9/22/2025</i></p>
     </div>
   </PanelBox>
 </div>
@@ -235,10 +234,10 @@
              /> -->
   </TimelineElement>
   <TimelineElement>
-    <strong>September 25th, 2025:</strong> 10am PST: Open Registration Begins
+    <strong>September 29th, 2025:</strong> 10am PST: Open Registration Begins
   </TimelineElement>
   <TimelineElement>
-    <strong>September 30th, 2025:</strong> Notification of Open Registration Status
+    <strong>October 2nd, 2025:</strong> Notification of Open Registration Status
   </TimelineElement>
   <TimelineElement>
     <strong>October 13rd, 2025:</strong> Deadline for teams to finish registration & confirm
