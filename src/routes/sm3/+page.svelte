@@ -142,6 +142,9 @@
   size={4}
   textColor="var(--heading-color)"
 />
+<div class="image-container">
+      <img src="/SM3OFFICIALLOGO_vectorized.svg" alt="SM3 Logo" width="480" height="480" class="filter-red">
+</div>
 <Heading text="Overview" size={2.5} />
 <div class="section-wrapper">
   <PanelBox>
@@ -309,3 +312,22 @@
     {/each}
   </FlexBox>
 </section>
+
+
+<style>
+.image-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-container img {
+  max-width: 100%; 
+  height: auto;   
+  display: block; 
+}
+.filter-red {
+  filter: invert(12%) sepia(24%) saturate(6838%) hue-rotate(345deg) brightness(94%) contrast(99%);
+  /* This is the --heading-color color, aa1b1b, but I could not be bothered to figure out how to do this a better way than a css filter calculator*/ 
+}
+</style>
