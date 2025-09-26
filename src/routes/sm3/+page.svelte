@@ -35,10 +35,18 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
       '10:45 AM',
-      'Sprint Round / Activities',
-      'Sprint Round / Activities',
-      'Sprint Round / Activities',
+      'Treelay Round',
+      'Treelay Round',
+      'Treelay Round',
       'Scoreboard Viewing / Unstructured Time',
+    ], 
+    [
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
+      '11:45 AM',
+      'Activities: Origami and Constructions',
+      'Activities: Origami and Constructions',
+      'Activities: Origami and Constructions',
+      'Unstructured Time',
     ],
   
     [
@@ -272,11 +280,11 @@
     <!-- <FormattedTable data={testData} colStyles={testStyles} /> -->
     <p>
       Students at SMT will participate in <strong>three different events</strong>. All students will the 
-      Sprint Round and Puzzlehunt. After the Sprint Round and before lunch, students will be able to choose another activity. This
+      Treelay Round and Puzzlehunt. After the Treelay Round and before lunch, students will be able to choose another activity. This
       activity will be chosen during signup and cannot be changed afterwards. 
     </p>
     <p>
-      The <strong>Sprint Round</strong> is a fast paced 30 minute round consisting of a total of 40 questions where students 
+      The <strong>Treelay Round</strong> is a fast paced 30 minute round consisting of a total of 40 questions where students 
       race through the problems utilizing various power ups sprinkled throughout. Teams start out with five questions 
       and for each correct answer they hand in, they get another question. Teams get three attempts for each question. 
       Once the 3 attempts are used up, the team will automatically receive another problem and cannot resubmit again. 
@@ -291,9 +299,8 @@
     </p>
 
     <p>
-      <strong>Additional Activities: Announced Soon!</strong> <br>
-      After the Sprint Round ends and before lunch, students will paticipate in one more activity of their choosing. Activities 
-      will be selected by teams when they sign up. Potential activities include origami or an estimathon.
+      <strong>Additional Activities: Origami and Constructions!</strong> <br>
+      After the Treelay Round ends and before lunch, students will paticipate in origami and construction activities.
     </p>
     <p>
       
