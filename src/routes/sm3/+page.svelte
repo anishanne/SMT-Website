@@ -26,7 +26,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '9:45 AM',
+      '9:30 AM',
       'Opening Ceremony',
       'Opening Ceremony',
       'Opening Ceremony',
@@ -34,7 +34,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '10:45 AM',
+      '10:30 AM',
       'Treelay Round',
       'Treelay Round',
       'Treelay Round',
@@ -42,7 +42,7 @@
     ], 
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '11:45 AM',
+      '11:30 AM',
       'Activities',
       'Activities',
       'Activities',
@@ -51,7 +51,7 @@
   
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '12:30 PM',
+      '12:45 PM',
       'Lunch Break',
       'Lunch Break',
       'Lunch Break',
@@ -59,7 +59,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '1:45 PM',
+      '1:30 PM',
       'Puzzlehunt',
       'Puzzlehunt',
       'Puzzlehunt',
