@@ -196,16 +196,23 @@
 
       <h4>Closed Registration</h4>
       <p>
-        We are currently in a
-        <b>closed registration</b> phase. Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
+        The 
+        <b>closed registration</b> phase has concluded. Schools currently in contact with our organizing team can continue to sign up. 
+        Questions should continue to be sent to <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>.
+        <!-- Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
         from areas that are <b>low income </b>or <b>historically underrepresented in mathematics</b>. If you believe your school should register in this 
-        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>.
+        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>. -->
       </p>
       <h4>Open Registration</h4>
       <p>
-        If there are available spots after closed registration concludes, we will begin open registration on 
+        Open registration begins on 
         <b>Monday, September 29th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
-        It will be first-come, first-serve. There will also be a waitlist.  
+        The link to register is also <a href="https://forms.gle/8TCVsQ8pPbWsVwmi8">here</a> and below.
+        It will be first-come, first-serve. There will also be a waitlist. On Thursday, October 2nd, teams will be informed of their registration status 
+        and sent further payment instructions if necessary.
+      </p>
+      <p>
+      <i>SM3's purpose is to provide a math event for schools that are low income or historically underrepresented in mathematics. The environment may be less competitive than other middle school math events.</i>
       </p>
       <p>
         <i
@@ -215,8 +222,15 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 9/22/2025</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 9/29/2025</i></p>
     </div>
+    <HeaderButton
+        text="Open Registration Form"
+        href={"https://forms.gle/8TCVsQ8pPbWsVwmi8"}
+        newTab="true"
+        isSmall
+        centered
+      />
   </PanelBox>
 </div>
 <br />
