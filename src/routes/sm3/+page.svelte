@@ -208,7 +208,7 @@
         Open registration begins on 
         <b>Monday, September 29th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
         The link to register is also <a href="https://forms.gle/8TCVsQ8pPbWsVwmi8">here</a> and below.
-        It will be first-come, first-serve. There will also be a waitlist. On Thursday, October 2nd, teams will be informed of their registration status 
+        It will be first-come, first-serve. There will also be a waitlist. On Tuesday, October 14th, teams will be informed of their registration status 
         and sent further payment instructions if necessary.
       </p>
       <p>
@@ -222,7 +222,7 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 9/29/2025</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 10/7/2025</i></p>
     </div>
     <HeaderButton
         text="Open Registration Form"
@@ -262,10 +262,10 @@
     <strong>September 29th, 2025:</strong> 10am PST: Open Registration Begins
   </TimelineElement>
   <TimelineElement>
-    <strong>October 2nd, 2025:</strong> Notification of Open Registration Status
+    <strong>October 14th, 2025:</strong> Notification of Open Registration Status
   </TimelineElement>
   <TimelineElement>
-    <strong>October 13rd, 2025:</strong> Deadline for teams to finish registration & confirm
+    <strong>October 19th, 2025:</strong> Deadline for teams to finish registration & confirm
     their spots
   </TimelineElement>
   <TimelineElement>
@@ -273,7 +273,7 @@
   </TimelineElement>
 </Timeline>
 
-<Heading text="Contest Schedule" size={2.5} style="margin-top: 5rem" />
+<Heading text="SM3 Schedule" size={2.5} style="margin-top: 5rem" />
 <div class="schedule-wrapper section-wrapper">
   <FlexBox>
     <PanelBox>
