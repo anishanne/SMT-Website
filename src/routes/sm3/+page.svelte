@@ -34,7 +34,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '10:30 AM',
+      '10:15 AM',
       'Treelay Round',
       'Treelay Round',
       'Treelay Round',
@@ -59,7 +59,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '1:30 PM',
+      '1:45 PM',
       'Puzzlehunt',
       'Puzzlehunt',
       'Puzzlehunt',
@@ -67,7 +67,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
-      '4:00 PM',
+      '4:30 PM',
       'Awards',
       'Awards',
       'Awards',
