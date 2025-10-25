@@ -301,7 +301,7 @@
       activity will be chosen during signup and cannot be changed afterwards. 
     </p>
     <p>
-      The <strong>Treelay Round</strong> is a fast paced 30 minute round consisting of a total of 40 questions where students 
+      The <strong>Treelay Round</strong> is a fast paced 40 minute round consisting of a total of 40 questions where students 
       race through the problems utilizing various power ups sprinkled throughout. Teams start out with five questions 
       and for each correct answer they hand in, they get another question. Teams get three attempts for each question. 
       Once the 3 attempts are used up, the team will automatically receive another problem and cannot resubmit again. 
