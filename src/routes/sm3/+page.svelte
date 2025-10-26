@@ -150,6 +150,7 @@
   size={4}
   textColor="var(--heading-color)"
 />
+<Heading text="SM3 SOLUTIONS RELEASED!" size={2.5} />
 <div class="image-container">
       <img src="/SM3OFFICIALLOGO_vectorized.svg" alt="SM3 Logo" width="480" height="480" class="filter-red">
 </div>

@@ -5,24 +5,33 @@
   import PanelBox from '$lib/components/PanelBox.svelte'
   import Table from '$lib/components/Table.svelte'
 
-  const supportedYears = [
-    2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
-  ]
+  const supportedYears = {
+    "SMT" : [2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024 ],
+    "SM3" : [2025]
+  }
 
+  let tournament = $page.params.tournament
   let year = $page.params.year
 
   // check valid year
-  let isYearSupported = supportedYears.includes(parseInt(year))
+  let isYearSupported = supportedYears[tournament].includes(parseInt(year))
 
   function getTableForYear(year, tb) {
+    console.log(`/pdfs/${tournament.toLowerCase()}${year}/${"SOMETHING"}.toLowerCase()}-problems.pdf`);
     function getRow(round) {
+
+      let problems_file = `${round.toLowerCase()}-problems.pdf`
+      let solutions_file = `${round.toLowerCase()}-solutions.pdf`
+      let key = tournament + "tests" + year;
+      problems_file = problems_file.substr(0, problems_file.lastIndexOf(".")) + (fileextension_overrides[key]?.[round]?.problems ?? ".pdf");
+      solutions_file = solutions_file.substr(0, solutions_file.lastIndexOf(".")) + (fileextension_overrides[key]?.[round]?.solutions ?? ".pdf");
+
       return [
         round,
-        `/pdfs/smt${year}/${round.toLowerCase()}-problems.pdf`,
-        `/pdfs/smt${year}/${round.toLowerCase()}-solutions.pdf`,
+        `/pdfs/${tournament.toLowerCase()}${year}/${problems_file}`,
+        `/pdfs/${tournament.toLowerCase()}${year}/${solutions_file}`,
       ]
     }
-
     function getTBRow(round) {
       return [
         round,
@@ -31,8 +40,29 @@
       ]
     }
 
+    //Specifically if we want to upload files other than pdf.  Prolly better solutions exist, but \shrug
+    let fileextension_overrides = {   
+      SM3tests2025 : {
+        //Eg. in this case I just want to send people to a google drive link with puzzle hunt solutions
+        PuzzleHunt : {
+          problems: ".html",
+          solutions: ".html",
+        },
+        Origami : {
+          problems: ".html",
+          solutions: ".html",
+        }
+      }
+    }
+
     let rounds = {
-      tests2024: [
+      SM3tests2025: [
+        'Treelay', 
+        'Origami',
+        'Construction',
+        'PuzzleHunt',
+      ],
+      SMTtests2024: [
         'Team',
         'Algebra',
         'Calculus',
@@ -42,8 +72,8 @@
         'Guts',
         'Power',
       ],
-      tb2024: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2023: [
+      SMTtb2024: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2023: [
         'Team',
         'Algebra',
         'Calculus',
@@ -53,8 +83,8 @@
         'Guts',
         'Power',
       ],
-      tb2023: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2022: [
+      SMTtb2023: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2022: [
         'Team',
         'Algebra',
         'Calculus',
@@ -64,8 +94,8 @@
         'Guts',
         'Power',
       ],
-      tb2022: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2021: [
+      SMTtb2022: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2021: [
         'Team',
         'Algebra',
         'Combo',
@@ -75,8 +105,8 @@
         'Guts',
         'Power',
       ],
-      tb2021: ['Algebra', 'Combo', 'NT', 'Geometry', 'General'],
-      tests2020: [
+      SMTtb2021: ['Algebra', 'Combo', 'NT', 'Geometry', 'General'],
+      SMTtests2020: [
         'Team',
         'Algebra',
         'Calculus',
@@ -86,8 +116,8 @@
         'Guts',
         'Power',
       ],
-      tb2020: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2019: [
+      SMTtb2020: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2019: [
         'Team',
         'Algebra',
         'Calculus',
@@ -96,8 +126,8 @@
         'General',
         'Power',
       ],
-      tb2019: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2018: [
+      SMTtb2019: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2018: [
         'Team',
         'Algebra',
         'Calculus',
@@ -106,8 +136,8 @@
         'General',
         'Power',
       ],
-      tb2018: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
-      tests2014: [
+      SMTtb2018: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      SMTtests2014: [
         'Team',
         'Algebra',
         'Calculus',
@@ -116,8 +146,8 @@
         'General',
         'Power',
       ],
-      tb2014: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
-      tests2013: [
+      SMTtb2014: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
+      SMTtests2013: [
         'Team',
         'Algebra',
         'Calculus',
@@ -126,8 +156,8 @@
         'General',
         'Power',
       ],
-      tb2013: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
-      tests2012: [
+      SMTtb2013: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
+      SMTtests2012: [
         'Team',
         'Algebra',
         'Calculus',
@@ -136,8 +166,8 @@
         'General',
         'Power',
       ],
-      tb2012: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
-      tests2011: [
+      SMTtb2012: ['Algebra', 'Calculus', 'Advanced', 'Geometry', 'General'],
+      SMTtests2011: [
         'Team',
         'Algebra',
         'Calculus',
@@ -150,9 +180,9 @@
     }
 
     if (tb) {
-      return rounds['tb' + year]?.map((x) => getTBRow(x)) ?? []
+      return rounds[tournament + 'tb' + year]?.map((x) => getTBRow(x)) ?? []
     } else {
-      return rounds['tests' + year]?.map((x) => getRow(x)) ?? []
+      return rounds[tournament + 'tests' + year]?.map((x) => getRow(x)) ?? []
     }
   }
 
@@ -191,7 +221,7 @@
 {:else}
   <div style="min-height: 100vh;">
     <br /><br />
-    <Heading text={'SMT ' + year} size={4} textColor="var(--heading-color)" />
+    <Heading text={tournament + " " + year} size={4} textColor="var(--heading-color)" />
 
     <div style="margin-left: 10vw; margin-right: 10vw;">
       <PanelBox>
@@ -212,7 +242,7 @@
             </table>
           </div>
 
-          {#if year !== 2011}
+          {#if year !== 2011 && tournament != "SM3"}
             <div style="min-height: 100%; height: 100%;">
               <h3>Tiebreakers</h3>
               <table>

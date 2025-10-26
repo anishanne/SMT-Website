@@ -4,22 +4,27 @@
   import PageHeader from '$lib/components/PageHeader.svelte'
   import PanelBox from '$lib/components/PanelBox.svelte'
 
-  const supportedYears = [
-    2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
-  ]
+  const supportedYears = {
+    "SMT" : [2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024 ],
+    "SM3" : [2025]
+  }
 
   let yearLinks = []
-  for (let i of supportedYears) {
-    yearLinks.push({
-      year: i,
-      url: `/past-tests/${i}`,
-    })
+  for (const tournament in supportedYears){
+    for (let i of supportedYears[tournament]) {
+      yearLinks.push({
+        tournament: tournament,
+        year: i,
+        url: `/past-tests/${tournament}/${i}`,
+      })
+    }
   }
 </script>
 
 <br /><br />
 <div style="min-height: 100vh">
   <Heading text="Past Tournaments" size={4} textColor="var(--heading-color)" />
+  <Heading text="SMT" size={2} textColor="var(--heading-color)" />
   <div class="flex" style="max-width: 100vw;">
     <PanelBox>
       <div
@@ -27,9 +32,29 @@
         style="flex-direction: row; flex-basis: 0; flex-wrap: wrap;"
       >
         {#each yearLinks as link}
-          <div class="year-link">
-            <a href={link.url}>{link.year}</a>
-          </div>
+          {#if link.tournament == "SMT"}
+            <div class="year-link">
+              <a href={link.url}>{link.year}</a>
+            </div>
+          {/if}
+        {/each}
+      </div>
+    </PanelBox>
+  </div>
+
+  <Heading text="SM3" size={2} textColor="var(--heading-color)" />
+  <div class="flex" style="max-width: 100vw;">
+    <PanelBox>
+      <div
+        class="flex"
+        style="flex-direction: row; flex-basis: 0; flex-wrap: wrap;"
+      >
+        {#each yearLinks as link}
+          {#if link.tournament == "SM3"}
+            <div class="year-link">
+              <a href={link.url}>{link.year}</a>
+            </div>
+          {/if}
         {/each}
       </div>
     </PanelBox>
