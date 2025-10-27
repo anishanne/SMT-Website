@@ -314,8 +314,8 @@
     <FormattedTable data={registrationData} colStyles={registrationStyles} />
     <p style="text-align: center">
       Questions or issues? Reach out to <a
-        href="mailto:stanford.math.tournament@gmail.com"
-        >stanford.math.tournament@gmail.com</a
+        href="mailto:info@stanfordmathtournament.com"
+        >info@stanfordmathtournament.com</a
       >
     </p>
   </PanelBox>
