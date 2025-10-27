@@ -17,7 +17,6 @@
   let isYearSupported = supportedYears[tournament].includes(parseInt(year))
 
   function getTableForYear(year, tb) {
-    console.log(`/pdfs/${tournament.toLowerCase()}${year}/${"SOMETHING"}.toLowerCase()}-problems.pdf`);
     function getRow(round) {
 
       let problems_file = `${round.toLowerCase()}-problems.pdf`
