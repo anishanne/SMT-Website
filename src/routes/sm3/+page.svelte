@@ -198,10 +198,10 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        SM3 will have <b>200 students</b> (~50 teams) competing in-person at Stanford. 
+        SM3 will have <b>200 students</b> (~50 teams) competing info@stanfordmathtournament.cominfo@stanfordmathtournament.com
        
       </p>
-
+info@stanfordmathtournament.cominfo@stanfordmathtournament.com
       <h4>Closed Registration</h4>
       <p>
         The 
@@ -242,7 +242,7 @@
   </PanelBox>
 </div>
 <br />
-<!--
+<!--info@stanfordmathtournament.cominfo@stanfordmathtournament.com
 <Heading text="Registration Information" size={2.5} />
 <div class="section-wrapper" >
     <PanelBox >
