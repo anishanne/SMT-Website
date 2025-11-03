@@ -135,7 +135,7 @@
     'width: 1 px',
   ]
 
-  const formLink = 'https://link.stanfordmathtournament.com/apply'
+  const formLink = 'https://link.StanfordMathTournament.org/apply'
 </script>
 
 <svelte:head>
@@ -198,10 +198,10 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        SM3 will have <b>200 students</b> (~50 teams) competing info@stanfordmathtournament.cominfo@stanfordmathtournament.com
+        SM3 will have <b>200 students</b> (~50 teams) competing info@StanfordMathTournament.orginfo@StanfordMathTournament.org
        
       </p>
-info@stanfordmathtournament.cominfo@stanfordmathtournament.com
+info@StanfordMathTournament.orginfo@StanfordMathTournament.org
       <h4>Closed Registration</h4>
       <p>
         The 
@@ -242,7 +242,7 @@ info@stanfordmathtournament.cominfo@stanfordmathtournament.com
   </PanelBox>
 </div>
 <br />
-<!--info@stanfordmathtournament.cominfo@stanfordmathtournament.com
+<!--info@StanfordMathTournament.orginfo@StanfordMathTournament.org
 <Heading text="Registration Information" size={2.5} />
 <div class="section-wrapper" >
     <PanelBox >
