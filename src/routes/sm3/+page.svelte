@@ -198,18 +198,17 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        SM3 will have <b>200 students</b> (~50 teams) competing info@StanfordMathTournament.orginfo@StanfordMathTournament.org
+        SM3 will have <b>200 students</b> (~50 teams) competing in-person at Stanford.
        
       </p>
-info@StanfordMathTournament.orginfo@StanfordMathTournament.org
       <h4>Closed Registration</h4>
       <p>
         The 
         <b>closed registration</b> phase has concluded. Schools currently in contact with our organizing team can continue to sign up. 
-        Questions should continue to be sent to <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>.
+        Questions should continue to be sent to <a href="mailto:info@stanfordmathtournament.org">info@stanfordmathtournament.org</a>.
         <!-- Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
         from areas that are <b>low income </b>or <b>historically underrepresented in mathematics</b>. If you believe your school should register in this 
-        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>. -->
+        phase, please reach out to us at <a href="mailto:info@stanfordmathtournament.org">info@stanfordmathtournament.org</a>. -->
       </p>
       <h4>Open Registration</h4>
       <p>
@@ -250,7 +249,7 @@ info@StanfordMathTournament.orginfo@StanfordMathTournament.org
             data={registrationData}
             colStyles={registrationStyles}
         />
-        <p style="text-align: center">Questions or issues? Reach out to <a href='mailto:stanford.math.tournament@gmail.com'>stanford.math.tournament@gmail.com</a></p>
+        <p style="text-align: center">Questions or issues? Reach out to <a href='mailto:info@stanfordmathtournament.org'>info@stanfordmathtournament.org</a></p>
     </PanelBox>
 </div>
 <br />
