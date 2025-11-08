@@ -42,7 +42,7 @@
       </button>
       <div class="divider" />
       <SocialsLink
-        url="mailto:info@stanfordmathtournament.com"
+        url="mailto:info@StanfordMathTournament.org"
         type="solid"
         icon={faEnvelope}
       />

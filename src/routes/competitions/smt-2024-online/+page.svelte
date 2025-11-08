@@ -280,8 +280,8 @@
     <FormattedTable data={registrationData} colStyles={registrationStyles} />
     <p style="text-align: center">
       Questions or issues? Reach out to <a
-        href="mailto:info@stanfordmathtournament.com"
-        >info@stanfordmathtournament.com</a
+        href="mailto:info@StanfordMathTournament.org"
+        >info@StanfordMathTournament.org</a
       >
     </p>
   </PanelBox>

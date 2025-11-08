@@ -19,7 +19,7 @@
     } else {
       return {
         status: 302,
-        redirect: 'https://stanfordmathtournament.com',
+        redirect: 'https://StanfordMathTournament.org',
       }
     }
   }
