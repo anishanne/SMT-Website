@@ -52,8 +52,22 @@
   const scheduleData = [
     ['Event', 'Time (PDT)', 'Students', 'Students', 'Students'],
     [
+      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
+      '10:00 AM',
+      'Puzzle Hunt',
+      'Puzzle Hunt',
+      'Puzzle Hunt',
+    ],
+    [
+      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
+      '11:30 AM',
+      'Puzzle Hunt',
+      'Puzzle Hunt',
+      'Puzzle Hunt',
+    ],
+    [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Monday, 4/7',
+      'Monday, 4/13',
       'PotD #1',
       'PotD #1',
       'PotD #1',
@@ -85,20 +99,6 @@
       'PotD #5',
       'PotD #5',
       'PotD #5',
-    ],
-    [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/18</i>",
-      '10:00 AM',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
-    ],
-    [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/18</i>",
-      '11:30 AM',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
     ],
     [
       "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
@@ -327,6 +327,9 @@
     deadline.
   </TimelineElement>
   <TimelineElement>
+    <strong>April 11, 2026:</strong> SMT Online Puzzle Hunt
+  </TimelineElement>
+  <TimelineElement>
     <strong>April 12, 2026 at 11:59 PM PT:</strong> Late ($35/student) registration
     deadline.
   </TimelineElement>
@@ -334,9 +337,6 @@
     <strong>April 15, 2026 at 11:59 PM PT:</strong> Very Late ($45/student) registration
     deadline and deadline for adding students to teams and filling out waivers. Teams
     are frozen on COMP (our online test-taking software).
-  </TimelineElement>
-  <TimelineElement>
-    <strong>April 17, 2026:</strong> SMT Online Puzzle Hunt
   </TimelineElement>
   <TimelineElement>
     <strong>April 19, 2026:</strong> SMT Online
