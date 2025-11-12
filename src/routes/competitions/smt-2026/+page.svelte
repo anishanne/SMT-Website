@@ -19,47 +19,47 @@
   const scheduleData = [
     ['Event', 'Time', 'Students', 'Students', 'Students', 'Parents/Coaches'],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Monday, 4/8',
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Monday, 4/14',
       'PotD #1',
       'PotD #1',
       'PotD #1',
       'N/A',
     ],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Tuesday, 4/9',
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Tuesday, 4/15',
       'PotD #2',
       'PotD #2',
       'PotD #2',
       'N/A',
     ],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Wednesday, 4/10',
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Wednesday, 4/16',
       'PotD #3',
       'PotD #3',
       'PotD #3',
       'N/A',
     ],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Thursday, 4/11',
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Thursday, 4/17',
       'PotD #4',
       'PotD #4',
       'PotD #4',
       'N/A',
     ],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Friday, 4/12',
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Friday, 4/18',
       'PotD #5',
       'PotD #5',
       'PotD #5',
       'N/A',
     ],
     [
-      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/11<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
+      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '3:30 PM',
       'Early Check-In',
       'Early Check-In',
@@ -67,7 +67,7 @@
       'Early Check-In',
     ],
     [
-      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/11<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
+      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '4:30 PM',
       'Are You Smarter Than an SMT Organizer?',
       'Puzzle Hunt',
@@ -75,7 +75,7 @@
       'Stanford Tours',
     ],
     [
-      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/11<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
+      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '6:00 PM',
       'Origami Relay',
       'Puzzle Hunt',
@@ -83,7 +83,7 @@
       'Math Games',
     ],
     [
-      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/11<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
+      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '7:30 PM',
       'Dinner',
       'Dinner',
@@ -91,7 +91,7 @@
       'Dinner',
     ],
     [
-      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/11<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
+      "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '8:00 PM',
       'Board Games',
       'Board Games',
@@ -99,7 +99,7 @@
       'Integration Bee Qualifiers',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '7:00 AM',
       'Check-In',
       'Check-In',
@@ -107,7 +107,7 @@
       'Check-In',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '8:00 AM',
       'Opening Ceremony',
       'Opening Ceremony',
@@ -115,7 +115,7 @@
       'Opening Ceremony',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '8:30 AM',
       'Power Round',
       'Power Round',
@@ -124,7 +124,7 @@
     ],
   
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '10:00 AM',
       'Team Round',
       'Team Round',
@@ -132,7 +132,7 @@
       'Unstructured Time',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '11:00 AM',
       'Lunch Break',
       'Lunch Break',
@@ -140,7 +140,7 @@
       'Lunch Break',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '12:00 PM',
       'Subject Test #1',
       'Subject Test #1',
@@ -148,7 +148,7 @@
       'Unstructured Time',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '1:00 PM',
       'Subject Test #2',
       'Subject Test #2',
@@ -156,7 +156,7 @@
       'Unstructured Time',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '2:00 PM',
       'Guts Round',
       'Guts Round',
@@ -164,7 +164,7 @@
       'Guts Scoreboard Livestream',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '4:00 PM',
       'Math Talk w/ Tadashi Tokieda',
       'Integration Bee Finals',
@@ -172,7 +172,7 @@
       'Unstructured Time',
     ],
     [
-      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/12<br><i style='font-size: 80%'>Tournament Day</i>",
+      "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '5:30 PM',
       'Awards',
       'Awards',
@@ -347,7 +347,7 @@
       <h4>Selection Method</h4>
       <p>
         We will reserve spots for <b>top school teams</b> (non-orgs) from SMT
-        2025 and for teams that are <b>low-income</b> and/or
+        2026 and for teams that are <b>low-income</b> and/or
         <b>historically underrepresented</b> in mathematics. The rest of the spots
         will be assigned via a lottery, with preference given to school-based teams,
         followed by local organizations and individuals.
@@ -360,7 +360,7 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 8/1/2025</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 8/7/2026</i></p>
     </div>
   </PanelBox>
 </div>
@@ -382,7 +382,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>December 7, 2024:</strong> In-person application form opens
+    <strong>December 13, 2025:</strong> In-person application form opens
     <a href={formLink} target="_blank">here</a>
     <!-- <br /> -->
     <!-- <Link
@@ -391,14 +391,14 @@
              /> -->
   </TimelineElement>
   <TimelineElement>
-    <strong>March 2, 2025 at 11:59 PM PT:</strong> Application deadline
+    <strong>March 8, 2026 at 11:59 PM PT:</strong> Application deadline
   </TimelineElement>
   <TimelineElement>
-    <strong>March 7, 2025:</strong> Announcement of teams selected for in-person
+    <strong>March 13, 2026:</strong> Announcement of teams selected for in-person
     competition
   </TimelineElement>
   <TimelineElement>
-    <strong>March 14, 2025:</strong> Deadline for selected teams to register & confirm
+    <strong>March 20, 2026:</strong> Deadline for selected teams to register & confirm
     their spots
   </TimelineElement>
   <!--<TimelineElement>
@@ -409,10 +409,10 @@
     </TimelineElement>
 -->
   <TimelineElement>
-    <strong>April 11, 2025:</strong> Optional Social Activities
+    <strong>April 17, 2026:</strong> Optional Social Activities
   </TimelineElement>
   <TimelineElement>
-    <strong>April 12, 2025:</strong> SMT tournament day
+    <strong>April 18, 2026:</strong> SMT tournament day
   </TimelineElement>
 </Timeline>
 
