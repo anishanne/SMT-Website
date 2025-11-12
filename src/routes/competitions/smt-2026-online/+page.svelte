@@ -257,7 +257,7 @@
         <strong>WHO:</strong> Students in high school and below, from anywhere
         in the world.* <br />
         <strong>TEAM SIZE:</strong> 6-8 <br />
-        <strong>COST:</strong> $25-$40 per student** (see timeline below) <br />
+        <strong>COST:</strong> $25-$45 per student** (see timeline below) <br />
         <br />
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
@@ -331,7 +331,7 @@
     deadline.
   </TimelineElement>
   <TimelineElement>
-    <strong>April 15, 2026 at 11:59 PM PT:</strong> Very Late ($40/student) registration
+    <strong>April 15, 2026 at 11:59 PM PT:</strong> Very Late ($45/student) registration
     deadline and deadline for adding students to teams and filling out waivers. Teams
     are frozen on COMP (our online test-taking software).
   </TimelineElement>
