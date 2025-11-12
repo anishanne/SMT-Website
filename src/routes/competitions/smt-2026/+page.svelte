@@ -261,12 +261,12 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        <strong>DATE:</strong> April 10-11, 2026 <br />
+        <strong>DATE:</strong> April 17-18, 2026 <br />
         <strong>LOCATION:</strong> Stanford University <br />
         <strong>WHO:</strong> High School students residing within the United
         States <br />
         <strong>TEAM SIZE:</strong> 5-6 <br />
-        <strong>COST:</strong> $20 per student* (Financial aid available upon
+        <strong>COST:</strong> $25 per student* (Financial aid available upon
         request!) <br />
 
         <br />
