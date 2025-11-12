@@ -266,7 +266,7 @@
         <strong>WHO:</strong> High School students residing within the United
         States <br />
         <strong>TEAM SIZE:</strong> 5-6 <br />
-        <strong>COST:</strong> $25 per student* (Financial aid available upon
+        <strong>COST:</strong> $30 per student* (Includes a t-shirt, dinner on Friday, and lunch on Saturday. Financial aid available upon
         request!) <br />
 
         <br />
