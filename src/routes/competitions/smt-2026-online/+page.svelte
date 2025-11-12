@@ -52,119 +52,119 @@
   const scheduleData = [
     ['Event', 'Time (PDT)', 'Students', 'Students', 'Students'],
     [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Monday, 4/7',
-      'PotD #1',
-      'PotD #1',
-      'PotD #1',
-    ],
-    [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Tuesday, 4/8',
-      'PotD #2',
-      'PotD #2',
-      'PotD #2',
-    ],
-    [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Wednesday, 4/9',
-      'PotD #3',
-      'PotD #3',
-      'PotD #3',
-    ],
-    [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Thursday, 4/10',
-      'PotD #4',
-      'PotD #4',
-      'PotD #4',
-    ],
-    [
-      "<font style='font-size: 150%'>Problem of the Day</font><br>4/7 - 4/11<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Friday, 4/11',
-      'PotD #5',
-      'PotD #5',
-      'PotD #5',
-    ],
-    [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/12</i>",
+      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
       '10:00 AM',
       'Puzzle Hunt',
       'Puzzle Hunt',
       'Puzzle Hunt',
     ],
     [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/12</i>",
+      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
       '11:30 AM',
       'Puzzle Hunt',
       'Puzzle Hunt',
       'Puzzle Hunt',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Monday, 4/13',
+      'PotD #1',
+      'PotD #1',
+      'PotD #1',
+    ],
+    [
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Tuesday, 4/8',
+      'PotD #2',
+      'PotD #2',
+      'PotD #2',
+    ],
+    [
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Wednesday, 4/9',
+      'PotD #3',
+      'PotD #3',
+      'PotD #3',
+    ],
+    [
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Thursday, 4/16',
+      'PotD #4',
+      'PotD #4',
+      'PotD #4',
+    ],
+    [
+      "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
+      'Friday, 4/17',
+      'PotD #5',
+      'PotD #5',
+      'PotD #5',
+    ],
+    [
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '8:00 AM',
       'Check-In',
       'Check-In',
       'Check-In',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '9:00 AM',
       'Opening Ceremony',
       'Opening Ceremony',
       'Opening Ceremony',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '9:30 AM',
       'Power Round',
       'Power Round',
       'Power Round',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '11:10 AM',
       'Team Round',
       'Team Round',
       'Team Round',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '12:00 PM',
       'Lunch Break',
       'Lunch Break',
       'Lunch Break',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '1:00 PM',
       'Subject Test #1',
       'Subject Test #1',
       'General Test',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '2:00 PM',
       'Subject Test #2',
       'Subject Test #2',
       'General Test',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '3:00 PM',
       'Break',
       'Break',
       'Break',
     ],
     [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/13</i>",
+      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '3:30 PM',
       'Guts Round',
       'Guts Round',
       'Guts Round',
     ],
     [
-      "<font style='font-size: 150%'>Awards Ceremony</font><br><i>4/20</i>",
+      "<font style='font-size: 150%'>Awards Ceremony</font><br><i>4/26</i>",
       '5:00 PM',
       'Awards',
       'Awards',
@@ -236,14 +236,14 @@
 </script>
 
 <svelte:head>
-  <title>SMT 2025 Online</title>
+  <title>SMT 2026 Online</title>
 </svelte:head>
 
 <svelte:window bind:innerWidth={windowWidth} />
 
 <br /><br />
 <Heading
-  text="Stanford Math Tournament 2025 Online"
+  text="Stanford Math Tournament 2026 Online"
   size={4}
   textColor="var(--heading-color)"
 />
@@ -252,12 +252,12 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        <strong>DATE:</strong> April 13, 2025 <br />
+        <strong>DATE:</strong> April 19, 2026 <br />
         <strong>LOCATION:</strong> Online <br />
         <strong>WHO:</strong> Students in high school and below, from anywhere
         in the world.* <br />
         <strong>TEAM SIZE:</strong> 6-8 <br />
-        <strong>COST:</strong> $15-$25 per student** (see timeline below) <br />
+        <strong>COST:</strong> $25-$45 per student** (see timeline below) <br />
         <br />
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
@@ -265,11 +265,11 @@
         **Eventbrite charges around $2.00 per student in service fees.
       </p>
       <HeaderButton
-        text="Register on COMP.MT"
-        href={formLink}
-        newTab="true"
+        text="Registration Coming Soon!"
+        href="#"
         isSmall
         centered
+        disabled
       />
     </div>
   </PanelBox>
@@ -318,31 +318,31 @@
   </TimelineElement>
   <!--
   <TimelineElement>
-    <strong>March 7, 2025 at 11:59 PM PT:</strong> Early Bird ($15/student) registration
+    <strong>March 7, 2026 at 11:59 PM PT:</strong> Early Bird ($15/student) registration
     deadline.
   </TimelineElement>
   -->
   <TimelineElement>
-    <strong>March 31, 2025 at 11:59 PM PT:</strong> Regular ($20/student) registration
+    <strong>April 6, 2026 at 11:59 PM PT:</strong> Regular ($25/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
-    <strong>April 6, 2025 at 11:59 PM PT:</strong> Late ($25/student) registration
+    <strong>April 11, 2026:</strong> SMT Online Puzzle Hunt
+  </TimelineElement>
+  <TimelineElement>
+    <strong>April 12, 2026 at 11:59 PM PT:</strong> Late ($35/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
-    <strong>April 9, 2025 at 11:59 PM PT:</strong> Very Late ($30/student) registration
+    <strong>April 15, 2026 at 11:59 PM PT:</strong> Very Late ($45/student) registration
     deadline and deadline for adding students to teams and filling out waivers. Teams
     are frozen on COMP (our online test-taking software).
   </TimelineElement>
   <TimelineElement>
-    <strong>April 12, 2025:</strong> SMT Online Puzzle Hunt
+    <strong>April 19, 2026:</strong> SMT Online
   </TimelineElement>
   <TimelineElement>
-    <strong>April 13, 2025:</strong> SMT Online
-  </TimelineElement>
-  <TimelineElement>
-    <strong>April 20, 2025:</strong> SMT Online Awards
+    <strong>April 26, 2026:</strong> SMT Online Awards
   </TimelineElement>
 </Timeline>
 
